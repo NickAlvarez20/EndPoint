@@ -29,8 +29,7 @@ To run this project, you need the following installed on your system:
 
 -A compatible database client (e.g., PostgreSQL for AWS RDS compatibility, as assumed for the database setup).
 
--Additional libraries as specified in the package.json file, including dependencies for Expres
-s, JWT, bcrypt for password hashing, and AWS SDK. Check the project's package.json for a complete list of required dependencies.
+-TBD
 
 -Note: Due to the complexity of this project, not all dependencies may work with your current versions. This is not an exhaustive prerequisite list and this is a very complicated project. The usage section is TBD as it requires extensive knowledge of navigating various complex components. 
 
@@ -63,14 +62,14 @@ The EndPointDB project includes these features:
 
 ## Getting Started & Installation
 Clone the repository to your local machine:
-`git clone https://github.com/NickAlvarez20/EndPointDB.git`
+`git clone https://github.com/NickAlvarez20/EndPoint.git`
 
 1. Navigate to the project directory:
 `cd projectDir`
 2. Install dependencies (assuming Node.js/Express.js as an example):
 `npm install`
 
-3. Configure environment variables (e.g., in a .env file) for AWS credentials, database connections, JWT secrets, etc.
+3. Configure environment variables (e.g., in a .env file) for AWS credentials, database connections, JWT, etc.
 
 4. Seed the database if necessary using provided scripts.
 

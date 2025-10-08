@@ -14,12 +14,14 @@
 ## Project Name
 EndPointDB
 ## About
-EndPointDB is a Backend Specialization Final Forum Project deployed to Amazon Web Services (AWS). It is a robust forum application featuring a secure, scalable RESTful API, backend, and database. The project showcases advanced backend development with user registration, JWT-based authentication, token validation, and password management via an auth controller. It includes authorization mechanisms, database seeding, and session management with cookies and local storage. Deployed using AWS Elastic Beanstalk, it leverages IAM for user permissions, EC2 with SSH access, RDS for relational database services, and Elastic Beanstalk extensions for streamlined deployments. The system is optimized with environment variables, load balancers, and HTTPS for secure, scalable performance.
+EndPointDB is a Backend Specialization Final Forum Project deployed to Amazon Web Services (AWS). It is a robust forum application featuring a secure, scalable frontend, RESTful API, backend, and database. The project showcases advanced frontend and backend development with user registration, posts, replies, likes, JWT-based authentication, token validation, and password management via an auth controller. It includes authorization mechanisms, database seeding, and session management with cookies and local storage. Deployed using AWS Elastic Beanstalk, it leverages IAM for user permissions, EC2 with SSH access, RDS for relational database services, and Elastic Beanstalk extensions for streamlined deployments. The system is optimized with environment variables, load balancers, and HTTPS for secure, scalable performance. This led to the purchase of my first official domain, (Not Actual) Https://GuruCoding.com. I have added the frontend which is depicted here and fully integrates api endpoints for a completed full stack application.
 ## Prerequisites
 
 **The Source Code is available upon request and is not open to public**
 
 To run this project, you need the following installed on your system:
+
+-React
 
 -Node.js and TypeScript (for the backend runtime and development environment, as the project uses TypeScript with Node.js).
 
@@ -35,6 +37,8 @@ To run this project, you need the following installed on your system:
 
 ## Features
 The EndPointDB project includes these features:
+
+-Frontend Client with fully functioning api endpoints
 
 -User registration with secure password handling and auth controller.
 
@@ -80,6 +84,8 @@ TBD
 
 ## Learning Outcomes
 This project helped me:
+
+-Learn how to connect a frontend to an api/backend/database and make requests
 
 -Implement user registration, JWT issuance, token validation, and password management.
 
